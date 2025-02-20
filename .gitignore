@@ -1,1 +1,4 @@
 /.DS_Store
+/data/course.json
+/data/s_bert_embeddings.npy
+/data/course_index.ann

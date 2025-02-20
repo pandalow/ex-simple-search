@@ -9,6 +9,5 @@ def read_root():
 
 @app.get("/search/{query}")
 async def search(query: str):
-
     item_ids = search_query(query)
     return {"item_ids": item_ids}

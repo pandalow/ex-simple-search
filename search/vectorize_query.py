@@ -7,7 +7,5 @@ def get_vectorizer():
 def vectorize_query(query):
     vectorizer = get_vectorizer()
     X = vectorizer.encode(query)
-    print(X.shape)
-    print(X)
     return X
 
