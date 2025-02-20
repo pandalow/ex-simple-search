@@ -1,4 +1,4 @@
-## EX-SIMPLE SEARCH ENGINE
+## EX-SIMPLE search service
 
 ### Overview
 
