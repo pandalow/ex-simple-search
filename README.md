@@ -46,6 +46,7 @@ Run the following command to start the search engine server:
 - `fastapi dev main.py`
 The default API will be available at:
 Swagger UI Docs: http://127.0.0.1:8000/docs
+
 ReDoc API Docs: http://127.0.0.1:8000/redoc
 
 ### API Documentation
@@ -77,7 +78,9 @@ Example Response:
 
 ### References
 Sentence Transformers: https://sbert.net/docs/quickstart.html
+
 Spotify Annoy: https://github.com/spotify/annoy
+
 FastAPI: https://fastapi.tiangolo.com
 
 Happy Searching! 🎯
