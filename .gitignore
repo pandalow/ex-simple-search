@@ -1,7 +1,7 @@
 /.DS_Store
-/data/course.json
+/data/data.json
 /data/s_bert_embeddings.npy
-/data/course_index.ann
+/data/index.ann
 
 /.gitignore
 /__pycache__
