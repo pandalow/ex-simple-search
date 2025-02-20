@@ -2,9 +2,9 @@ from utils.s_bert import process_data
 from utils.ann import build_index
 
 args = {
-    'file_path': 'data/course.json',
+    'file_path': 'data/data.json',
     'output_path': 'data/s_bert_embeddings.npy',
-    'index_path': 'data/course_index.ann'
+    'index_path': 'data/index.ann'
 }
 
 

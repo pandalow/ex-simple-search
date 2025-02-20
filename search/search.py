@@ -6,7 +6,7 @@ from .vectorize_query import vectorize_query
 def get_index():
     features = np.load('data/s_bert_embeddings.npy').shape[1]
     u = AnnoyIndex(features, 'angular')
-    u.load('data/course_index.ann')
+    u.load('data/index.ann')
     return u
 
 def search_query(query):
